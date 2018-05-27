@@ -773,7 +773,7 @@ int main(void)
     APP_ERROR_CHECK(err_code);
 		nrf_drv_wdt_enable();	
 		
-		err_code = app_timer_start(m_wdt_tmr, APP_TIMER_TICKS(500), NULL);
+		err_code = app_timer_start(m_wdt_tmr, APP_TIMER_TICKS(1000), NULL);
 		APP_ERROR_CHECK(err_code);
 //JACK END
 
